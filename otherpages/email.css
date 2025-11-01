@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.hero1-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+.hero1-right{
+    background-color: blue;
+    border: 2px solid black;
+    width: 50%;
+}
+.hero1-left{
+    background-color: yellow;
+    border: 2px solid white;
+    width: 50%;
+}
