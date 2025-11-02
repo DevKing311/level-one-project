@@ -746,9 +746,9 @@ width: 100px;
  }
  .before-footer a{
     color: black;
-    text-decoration: underline;
+     text-decoration: underline;
  }
- /* footer */
+/* footer */
  footer{
     background-color: #e7b75f;
  }
