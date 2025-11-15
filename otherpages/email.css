@@ -1,14 +1,15 @@
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
 }
-/* header */
 .header{
     position: fixed;
     width: 100%;
+  border: 2px solid black;
 
 }
 .alert{
@@ -59,8 +60,8 @@
     justify-content: space-around;
     gap: 2em;
     border: 2px solid black;
-    background-color: white;
-    border:none;
+    border: none;
+    margin-top: 10px;
 }
 .left-nav{
     display: flex; 
@@ -90,6 +91,123 @@
 
 
 /* dropdown */
+.biggest-wrapper{    
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    display: none;
+    background-color: white;
+    padding: 20px;
+    z-index: 999;
+    border: 2px solid white;
+}
+.drop-down:hover .biggest-wrapper{
+    display: flex;
+}
+.biggest-header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.biggest-header h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+}
+.biggest-header a{
+    font-size: 13px;
+    font-weight: 500px;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+.qq:hover{
+background-color: yellow;
+padding: 14px,27px;
+border-radius: 20px;
+}
+.biggest-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.biggest-inner h4 {
+    font-size: 11px;
+    font-weight: 800;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+.biggest-inner ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+.biggest-inner ul li{
+    padding: 10px;
+}
+.biggest-inner ul li:hover{
+     background-color: #f6f6f4;
+    padding: 13px 20px; 
+}
+
+ .box{display: flex;
+gap: 1em;
+margin-bottom: 10px;}
+ .box-wrapper h3{
+    font-size: 16px ;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family:  "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+
+ }
+
+.bx1{ 
+    background-color: #f6f6f4;
+width: 90px;
+height: 70px;
+border-radius: 5px;
+text-align: center;
+}
+
+.bx1 img{
+    width: 50px;
+    align-items: center;
+}
+.bx2{ 
+    background-color: #f6f6f4;
+width: 90px;
+height: 70px;
+border-radius: 5px;
+text-align: center;
+}
+.bx2 img{
+    width: 50px;
+    align-items: center;
+}
+.bx3{ background-color: #f6f6f4;
+width: 90px;
+height: 70px;
+border-radius: 5px;
+text-align: center;
+}
+.bx3 img{
+    width: 50px;
+    align-items: center;
+}
+
+.bx4{ 
+    background-color: #f6f6f4;
+width: 90px;
+height: 70px;
+border-radius: 5px;
+text-align: center;
+}
+.bx4 img{
+    width: 50px;
+    align-items: center;
+}
+
 .drop-down{
     position: relative;
 }
@@ -97,7 +215,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 0;
+    top: 70px;
     left: 0;
     width: 100%;
     display: none;
@@ -118,9 +236,20 @@
 }
 .list-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
+.list-header{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+}
+.ll:hover{
+background-color: yellow;
+padding: 12px,25px;
+border-radius: 20px;
+}
+
 .ul-wrapper5{
     display: flex;
     justify-content: space-between;
@@ -149,6 +278,10 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+/* .inner-mega img{
+    width: 25px;
+} */
 .list6{
     background-color: #f6f6f4;
     width: 30%;
@@ -160,6 +293,12 @@
     font-weight: 400;
     padding: 5px;
     margin-bottom: 15px;
+}
+.list6-sectionA ul li a img{
+    width: 25px
+}
+span{
+    margin-left: 6px;
 }
 .list6-sectionB H4{
     font-size: 11px;
@@ -201,9 +340,18 @@
  .inner-mega{
     padding: 40px;
  }
- .inner-mega:hover{
-    background-color: #f6f6f4;
+ .inner-mega ul li a img{
+    width: 25px;
  }
+ .demn {
+
+ }
+ .ul-imageswrapper{
+    display: flex;
+    justify-content: center;
+
+ }
+ 
  
 /* media query */
 @media (max-width: 768px) {
@@ -254,6 +402,19 @@
         transition: none;
     }
 }
+.inner {
+    border: 2px solid green;
+    padding: 10px;
+    border: none;
+}
+.inner:hover{
+    background-color: #f6f6f4;
+}
+.inner-mega img{
+    width: 25px;
+}
+
+
 .hero1-wrapper{
     display: flex; 
     justify-content: center; 
