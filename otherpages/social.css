@@ -346,9 +346,6 @@ span{
  .inner-mega ul li a img{
     width: 25px;
  }
- .demn {
-
- }
  .ul-imageswrapper{
     display: flex;
     justify-content: center;
@@ -676,8 +673,6 @@ width: 100px;
     width: 100%;
     margin-top: 30px;
  }
-.inner-three24{
-}
 .btn44 a{
     color: black;
     background-color: #f5f5f5;
@@ -816,11 +811,6 @@ background-color: #ffe01b;
      /* final */
 @media screen and (max-width: 768px) {
     /* General Mobile Styles */
-    body {
-         
-    }
-
-    
     .re11-wrapper,
     .three-wrapper, 
     .five-inner,
@@ -1041,9 +1031,6 @@ background-color: #ffe01b;
     align-items: center;
     gap: 0.5em; 
 
-}
-.ft3{
-    
 }
 .f3-ul{
     display: flex;

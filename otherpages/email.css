@@ -345,9 +345,6 @@ span{
  .inner-mega ul li a img{
     width: 25px;
  }
- .demn {
-
- }
  .ul-imageswrapper{
     display: flex;
     justify-content: center;
@@ -1060,9 +1057,6 @@ footer{
     align-items: center;
     gap: 0.5em; 
 
-}
-.ft3{
-    
 }
 .f3-ul{
     display: flex;

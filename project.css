@@ -344,13 +344,10 @@ span{
  .inner-mega ul li a img{
     width: 25px;
  }
- .demn {
-
- }
+ 
  .ul-imageswrapper{
     display: flex;
     justify-content: center;
-
  }
  
  
@@ -363,7 +360,6 @@ span{
     .right-nav ul li:first-child {
         display: none;
     }
-    
     .right-nav .btn1 {
         display: none;
     }
@@ -1205,9 +1201,7 @@ width: 100px;
     gap: 0.5em; 
 
 }
-.ft3{
-    
-}
+
 .f3-ul{
     display: flex;
     justify-content: center;
@@ -1471,9 +1465,6 @@ language-container
     align-items: center;
     gap: 0.5em; 
 
-}
-.ft3{
-    
 }
 .f3-ul{
     display: flex;
